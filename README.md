@@ -1,4 +1,4 @@
-# Iphone Text Message Viewer
+# iPhone Messages Reader
 
 ## Interface
 
@@ -8,7 +8,7 @@
 
 ## Setup
 
-This application is a local utility for users to view their text messages from an iPhone backup.  The React client runs off of a webpack server and the api uses Node.  You will need [NodeJs](https://nodejs.org) installed to run it.
+This application is a local utility for users to view their text messages from an iPhone backup.  The React client runs off of a webpack server and the api uses Node.  You will need [NodeJS](https://nodejs.org) installed to run it.
 
 This backup was created from a phone running iOS 10.2. Folder structure of future backups could be somewhat different, although historically you need to be looking for the following file to get your messages:
 
