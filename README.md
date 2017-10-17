@@ -65,6 +65,7 @@ INSERT INTO cleanmessages SELECT
         ON maj.message_id = m.rowid
         ORDER BY UniqueID, Date, Time
 ``` 
+(the select statement of this query is from [Chelsey Baker's project](https://github.com/chelseybaker/iOSMessageExport))
 
 Now save the database as messages.db and put it in the root of the api folder of your local copy of this project.
 
