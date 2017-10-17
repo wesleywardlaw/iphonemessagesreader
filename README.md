@@ -76,9 +76,28 @@ If you are going to include attachments, save them in a folder called attachment
 
 ## Running
 
-To run the client, navigate to the client directory using the command prompt and enter npm start.
+To run the client, navigate to the client directory using the command prompt. Then enter:
 
-To run the server, navigate to the api directory using the command prompt and enter npm start.
+```
+npm install
+```
+
+When that is complete, enter:
+
+```
+npm start
+```
+
+To run the server, navigate to the api directory using the command prompt.  Then enter:
+```
+npm install
+```
+
+When that is complete enter:
+
+```
+npm start
+```
 
 Once running, you can access the project in the browser at http://localhost:8080/.
 
