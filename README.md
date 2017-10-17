@@ -67,6 +67,7 @@ INSERT INTO cleanmessages SELECT
 ``` 
 (the select statement of this query is from [Chelsey Baker's project](https://github.com/chelseybaker/iOSMessageExport))
 
+
 Now save the database as messages.db and put it in the root of the api folder of your local copy of this project.
 
 After discovering how to identify the database storing an attachment associated with a particular message([you can read about this topic here if you are interested](https://apple.stackexchange.com/questions/77432/location-of-message-attachments-in-ios-6-backup)), I was  unable to access the data and got an error about encryption, which I could not circumvent.  To get attachments I used [iBackupViewer](http://www.imactools.com/iphonebackupviewer/) and extracted them all.  In my experience, tools like this are extremely slow for viewing(which is why I wanted to create a React version), but it got the necessary files to use with this project.
